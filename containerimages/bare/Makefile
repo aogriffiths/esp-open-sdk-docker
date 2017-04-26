@@ -1,7 +1,7 @@
 #default container tegistry tag with: your-organisation/example-image
 #Google cloud tag with: gcr.io/your-project-id/example-image
 
-IMAGE = standalone
+IMAGE = bare
 VERSION ?= v2
 #PORTS = -p 8080:80
 PORTS =
